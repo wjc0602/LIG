@@ -1,0 +1,21 @@
+代码中使用Jimm库(https://github.com/Jittor-Image-Models/Jittor-Image-Models), 引用5个模型预训练权重，数据集都为ImageNet,权重介绍如下。
+
+模型名称：tf_efficientnet_b5
+数据集：ImageNet-1k
+参数链接：https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b5_ra-9a3e5369.pth
+
+模型名称：tf_efficientnet_b6
+数据集：ImageNet-1k
+参数链接：https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b6_aa-80ba17e4.pth
+
+模型名称：vit_base_patch16_384
+数据集：ImageNet-1k
+参数链接：https://storage.googleapis.com/vit_models/augreg/B_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.01-res_384.npz
+
+模型名称：vit_base_patch16_224_in21k
+数据集：ImageNet-21k
+参数链接：https://storage.googleapis.com/vit_models/augreg/B_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.0-sd_0.0.npz
+
+模型名称：swin_base_patch4_window7_224_in22k
+数据集：ImageNet-22k
+参数链接：https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth
